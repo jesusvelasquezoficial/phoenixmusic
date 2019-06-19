@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='../dist/logo.png' width="150")
+    img(src='https://jesusvelasquezoficial.github.io/phoenixmusic/dist/logo.png' width="150")
     h1 {{ titulo }}
     select(v-model="paisSelect")
       option(v-for="pais in paises" :value="pais.value") {{ pais.name}}
